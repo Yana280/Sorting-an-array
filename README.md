@@ -78,6 +78,7 @@ Then, two loops are used. The outer loop iterates through the array from the fir
 If the smallest element is not the current element being sorted, then the current element is swapped with the smallest element found in the inner loop.
 
 Once the loops have completed, the sorted array is printed using printf.
+### Algorithm
  
  Start
 Create a function called Selectionsort which takes an array a and integer n as arguments
