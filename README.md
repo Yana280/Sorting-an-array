@@ -70,4 +70,50 @@ Step 23: End Sub
 
 STOP
 
+## Sorting using Selection sorting
+The Selectionsort function takes two arguments: an integer array a and the size of the array n. It begins by initializing a variable smallest to the first element of the array.
+
+Then, two loops are used. The outer loop iterates through the array from the first element to the second-to-last element. For each element in the outer loop, the inner loop finds the index of the smallest element in the remaining unsorted portion of the array.
+
+If the smallest element is not the current element being sorted, then the current element is swapped with the smallest element found in the inner loop.
+
+Once the loops have completed, the sorted array is printed using printf.
+ 
+ Start
+Create a function called Selectionsort which takes an array a and integer n as arguments
+
+Declare integer variables i, j, smallest, and temp
+
+For i = 0 to n-2
+
+Set smallest = i
+
+For j = i+1 to n-1
+
+If a[smallest] > a[j], set smallest = j
+
+If i != smallest
+
+Set temp = a[i]
+
+Set a[i] = a[smallest]
+
+Set a[smallest] = temp
+
+Print the sorted array using the printf function
+
+End the function
+
+Create the main function
+
+Declare an integer array called array of size 5 and initialize it with values
+
+Call the Selectionsort function with array and 5 as arguments
+
+Return 0 to indicate successful completion
+
+End the main function
+
+End the program.
+
 
