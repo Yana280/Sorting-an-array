@@ -16,27 +16,52 @@ The 'Bubble' function prints the first and last elements of the sorted array 'a'
 ### Algorithm
 START
 Step 1: Sub BubbleSort(a As Integer(), n As Integer)
+
 Step 2:     Dim passes, comparisons, i, j, temp As Integer
+
+
 Step 3:     passes = n - 1
+
 Step 4:     comparisons = n - 1
+
 Step 5: 
+
 Step 6:     For i = 0 To passes - 1
+
 Step 7:         For j = 0 To comparisons - i - 1
+
 Step 8:             If a(j) > a(j + 1) Then
+
 Step 9:                 temp = a(j)
+
 Step 10:                 a(j) = a(j + 1)
+
 Step 11:                 a(j + 1) = temp
+
 Step 12:             End If
+
 Step 13:         Next
+
 Step 14:     Next
+
 Step 15:
+
 Step 16:     Console.WriteLine("First ele: {0}", a(0))
+
 Step 17:     Console.WriteLine("Last Ele: {0}", a(n - 1))
+
 Step 18: End Sub
+
 Step 19:
+
 Step 20: Sub Main()
+
 Step 21:     Dim arr As Integer() = {120, 30, 40, 500, 100}
+
 Step 22:     BubbleSort(arr, 5)
+
 Step 23: End Sub
+
 STOP
+
 
