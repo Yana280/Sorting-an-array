@@ -1,15 +1,21 @@
 # Sorting-an-array
 ## Sorting using Bubble sort
 This program implements the bubble sort algorithm to sort an unsorted array of integers in ascending order.
+
 The main function initializes an unsorted array 'arr' with 5 integers: 120, 30, 40, 500, and 100.
 The main function calls the 'Bubble' function and passes the array 'arr' and its length '5' as arguments.
 The 'Bubble' function takes two parameters: an integer array 'a' and its length 'n'.
+
+
 The 'Bubble' function initializes variables 'passes', 'comparisons', 'i', 'j', and 'temp'.
 The 'passes' variable is set to 'n-1', which represents the number of passes required to sort the array.
+
 The 'comparisons' variable is also set to 'n-1', which represents the number of comparisons required in each pass.
 The 'for' loop runs from 0 to 'passes-1' and performs 'passes-1' iterations.
+
 The inner 'for' loop runs from 0 to 'comparisons-i-1' and performs 'comparisons-i-1' iterations.
 The 'if' statement inside the inner loop checks if the current element 'a[j]' is greater than the next element 'a[j+1]'.
+
 If the 'if' condition is true, it swaps the elements using the 'temp' variable to store the temporary value.
 The 'Bubble' function prints the first and last elements of the sorted array 'a' using array indexes 0 and 4, respectively.
 ![Screenshot (297)](https://user-images.githubusercontent.com/125993593/234355869-756716ee-37a7-4abf-9b63-27b31841ec9a.png)
