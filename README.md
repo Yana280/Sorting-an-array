@@ -76,8 +76,11 @@ The Selectionsort function takes two arguments: an integer array a and the size 
 Then, two loops are used. The outer loop iterates through the array from the first element to the second-to-last element. For each element in the outer loop, the inner loop finds the index of the smallest element in the remaining unsorted portion of the array.
 
 If the smallest element is not the current element being sorted, then the current element is swapped with the smallest element found in the inner loop.
+![Screenshot (298)](https://user-images.githubusercontent.com/125993593/234358692-ed84b52f-4bb8-4ec4-93a9-5566528ccade.png)
+
 
 Once the loops have completed, the sorted array is printed using printf.
+
 ### Algorithm
  
  Start
